@@ -21,15 +21,15 @@ int main()
 	{
 		switch(str[i])
 		{
-				case '+':if((i+1)==a||(i-1)==a)
+				case '+':if((i+1)==a) 
 						 sum+=str[a];
-						 else if((i+1)==b||(i-1)==b)
+						 else if((i+1)==b)
 						 sum+=str[b];
 						 else
 						 sum+=str[i+1]-'0';break;
-				case '-':if((i+1)==a||(i-1)==a)
+				case '-':if((i+1)==a)
 						 sum-=str[a];
-						 else if((i+1)==b||(i-1)==b)
+						 else if((i+1)==b)
 						 sum-=str[b];
 						 else
 						 sum-=str[i+1]-'0';break;
